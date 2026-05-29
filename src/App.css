@@ -1,0 +1,30 @@
+:root {
+  --gold: #C9A96E;
+  --gold-dim: #8B6F42;
+  --cream: #F5EDD6;
+  --bg: #080808;
+  --surface: #111010;
+  --surface2: #181818;
+  --text: #E8E0D0;
+  --muted: #6B6560;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Syne', sans-serif;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--gold-dim); }
+
+html, body, #root {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
